@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="387.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="132.0" prefWidth="387.0" style="-fx-background-color: #483D8B;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="49.0" prefHeight="63.0" prefWidth="256.0" text="PAYE Calculator" textFill="#f5f2f2">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <TextField layoutX="53.0" layoutY="187.0" prefHeight="38.0" prefWidth="231.0" promptText="Enter Username" style="-fx-alignment: #FFFFFF;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="53.0" layoutY="259.0" prefHeight="38.0" prefWidth="231.0" promptText="Enter Password" style="-fx-alignment: #FFFFFF;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </PasswordField>
+      <CheckBox layoutX="55.0" layoutY="318.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="126.0" style="-fx-alignment: #FFFFFF;" text="Show Password">
+         <font>
+            <Font size="14.0" />
+         </font></CheckBox>
+      <Hyperlink layoutX="53.0" layoutY="361.0" prefHeight="27.0" prefWidth="143.0" text="Forgot Password?">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Hyperlink>
+      <Button contentDisplay="CENTER" layoutX="80.0" layoutY="415.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="208.0" style="-fx-background-color: #F0E68C;" text="Login" textFill="#081b14cc">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.05" specularConstant="1.11" specularExponent="30.7" surfaceScale="0.8">
+               <bumpInput>
+                  <Shadow>
+                     <input>
+                        <ColorAdjust />
+                     </input>
+                  </Shadow>
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
